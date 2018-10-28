@@ -1,0 +1,3 @@
+<launch>
+    <node name="pololu_driver" pkg="pololu3750_rpi" type="driver.py" output="screen"/>        <!--sudo chmod g+rw /dev/mem-->
+</launch>
